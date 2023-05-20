@@ -31,7 +31,8 @@ body {
 
 .center {
   display: grid;
-  justify-content: center;
+  align-content: center;
+  justify-items: center;
 }
 
 .searchInput input{
@@ -67,6 +68,9 @@ ul{
   /*width: 54px;*/
   /*height: 33px;*/
 }
+.searchlist{
+  margin-top: 40px;
+}
 
 
 .formatDropdown{
@@ -94,11 +98,82 @@ ul{
   cursor: pointer;
 }
 
+
+
+
 .formatDropdown{
   position: relative;
   top: 0;
+  z-index: 1000;
 }
 
 .line{
   border-top: rgba(122, 122, 123, 0.71) solid 0.5px;
+}
+.searchlist{
+  background: #d9d9d9;
+  padding: 15px;
+  position: relative;
+  top: 0;
+  margin-top: 5px;
+  border-radius: 10px;
+
+}
+
+.searchInput{
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  margin: 0;
+}
+
+.searchlist li{
+  border-top: #7e7e7f solid 0.5px;
+  padding: 5px;
+}
+
+tbody{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+table{
+  margin: 20px 10px;
+}
+tbody  td{
+  padding: 10px;
+}
+
+.icondisplay img{
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+}
+
+.IconContainer{
+  background-color: #D9D9D9;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 10px;
+}
+
+.nameDownload{
+  display: inline-flex;
+  flex-direction: row;
+  gap: 6px;
+  width: 100%;
+  justify-content: space-between;
+}
+.icondisplay{
+  margin-bottom: 10px;
+  background-color: #fffcfc;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+
+.download img{
+  width: 12px;
+  height: 12px;
 }
