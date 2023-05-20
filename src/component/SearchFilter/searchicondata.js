@@ -38,111 +38,111 @@ export const Icons = [
     },
     {
       "id": "5",
-      "name": "Contacts",
-      "link": "https://example.com/icons/contacts.svg",
-      "format": "svg",
+      "name": "Office",
+      "link": "https://cdn-icons-png.flaticon.com/512/10786/10786787.png",
+      "format": "png",
       "searchFilter": [
-        "people",
+        "office",
         "friends"
       ]
     },
     {
       "id": "6",
-      "name": "Camera",
-      "link": "https://example.com/icons/camera.png",
+      "name": "Message",
+      "link": "https://cdn-icons-png.flaticon.com/512/10786/10786675.png",
       "format": "png",
       "searchFilter": [
-        "photo",
+        "chat",
         "video"
       ]
     },
     {
       "id": "7",
-      "name": "Microphone",
-      "link": "https://example.com/icons/microphone.svg",
-      "format": "svg",
+      "name": "Apple",
+      "link": "https://cdn-icons-png.flaticon.com/128/731/731985.png",
+      "format": "png",
       "searchFilter": [
-        "voice",
+        "ios",
         "recording"
       ]
     },
     {
       "id": "8",
-      "name": "Speaker",
-      "link": "https://example.com/icons/speaker.png",
+      "name": "Instagram",
+      "link": "https://cdn-icons-png.flaticon.com/128/1384/1384031.png",
       "format": "png",
       "searchFilter": [
-        "sound",
+        "socials",
         "music"
       ]
     },
     {
       "id": "9",
-      "name": "Clock",
-      "link": "https://example.com/icons/clock.svg",
-      "format": "svg",
+      "name": "Facebook",
+      "link": "https://cdn-icons-png.flaticon.com/128/2504/2504903.png",
+      "format": "png",
       "searchFilter": [
-        "time",
+        "socials",
         "alarm"
       ]
     },
     {
       "id": "10",
-      "name": "Calculator",
-      "link": "https://example.com/icons/calculator.png",
+      "name": "Thunder",
+      "link": "https://cdn-icons-png.flaticon.com/128/2504/2504902.png",
       "format": "png",
       "searchFilter": [
-        "math",
-        "numbers"
+        "weather",
+        "storm"
       ]
     },
     {
       "id": "11",
-      "name": "Browser",
-      "link": "https://example.com/icons/browser.svg",
-      "format": "svg",
+      "name": "Reward",
+      "link": "https://cdn-icons-png.flaticon.com/128/2504/2504303.png",
+      "format": "png",
       "searchFilter": [
-        "internet",
+        "gift",
         "web"
       ]
     },
     {
       "id": "12",
-      "name": "File Manager",
-      "link": "https://example.com/icons/file-manager.png",
+      "name": "Linkedin",
+      "link": "https://cdn-icons-png.flaticon.com/128/2504/2504923.png",
       "format": "png",
       "searchFilter": [
-        "files",
+        "socials",
         "folders"
       ]
     },
     {
       "id": "13",
-      "name": "Notes",
-      "link": "https://example.com/icons/notes.svg",
-      "format": "svg",
+      "name": "VK",
+      "link": "https://cdn-icons-png.flaticon.com/128/2504/2504953.png",
+      "format": "png",
       "searchFilter": [
-        "writing",
+        "social",
         "to-do"
       ]
     },
     {
       "id": "14",
-      "name": "Weather",
-      "link": "https://example.com/icons/weather.png",
+      "name": "Fire",
+      "link": "https://cdn-icons-png.flaticon.com/128/2504/2504943.png",
       "format": "png",
       "searchFilter": [
-        "temperature",
+        "socials",
         "forecast"
       ]
     },
     {
       "id": "15",
-      "name": "News",
-      "link": "https://example.com/icons/news.svg",
-      "format": "svg",
+      "name": "Hotdog",
+      "link": "https://cdn-icons-png.flaticon.com/128/2504/2504973.png",
+      "format": "png",
       "searchFilter": [
-        "current events",
+        "food",
         "politics"
       ]
     }
