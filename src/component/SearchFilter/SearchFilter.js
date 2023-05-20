@@ -12,9 +12,12 @@ export default  function SearchFilter (){
     }
 
     return(
+        <div className="center">
+
+
         <div className='filterBody'>
-            <div className="selectFormat" onClick={handleDropdown}>
-                <div className="format">PNG
+            <div className="selectFormat" >
+                <div className="format" onClick={handleDropdown}>PNG
                     <span className='dropdown' >
                         <img src="https://res.cloudinary.com/do5wu6ikf/image/upload/v1684572720/alx/Down_arrow_x9x9ni.svg" alt=""/>
                     </span>
@@ -35,6 +38,7 @@ export default  function SearchFilter (){
                 <input type="text" placeholder='Search you Icons.....'/>
             </div>
 
+        </div>
         </div>
     )
 }
