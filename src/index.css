@@ -81,7 +81,7 @@ ul{
 .selectFormat{
   cursor: pointer;
   /*width: 54px;*/
-  /*height: 33px;*/
+  height: 33px;
 }
 .searchlist{
   margin-top: 40px;
