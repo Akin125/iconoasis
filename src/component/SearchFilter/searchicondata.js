@@ -33,7 +33,7 @@ export const Icons = [
       "format": "png",
       "searchFilter": [
         "cycle",
-        "time"
+        "bicycle"
       ]
     },
     {
@@ -43,7 +43,7 @@ export const Icons = [
       "format": "png",
       "searchFilter": [
         "office",
-        "friends"
+        "personal space"
       ]
     },
     {
@@ -53,7 +53,7 @@ export const Icons = [
       "format": "png",
       "searchFilter": [
         "chat",
-        "video"
+        "conversation"
       ]
     },
     {
@@ -63,7 +63,7 @@ export const Icons = [
       "format": "png",
       "searchFilter": [
         "ios",
-        "recording"
+        "iphone"
       ]
     },
     {
@@ -73,7 +73,7 @@ export const Icons = [
       "format": "png",
       "searchFilter": [
         "socials",
-        "music"
+        "ig"
       ]
     },
     {
@@ -83,7 +83,7 @@ export const Icons = [
       "format": "png",
       "searchFilter": [
         "socials",
-        "alarm"
+        "facebook"
       ]
     },
     {
@@ -103,7 +103,7 @@ export const Icons = [
       "format": "png",
       "searchFilter": [
         "gift",
-        "web"
+        "won"
       ]
     },
     {
@@ -113,7 +113,7 @@ export const Icons = [
       "format": "png",
       "searchFilter": [
         "socials",
-        "folders"
+        "Linkedin"
       ]
     },
     {
@@ -123,7 +123,7 @@ export const Icons = [
       "format": "png",
       "searchFilter": [
         "social",
-        "to-do"
+        "vk"
       ]
     },
     {
@@ -133,7 +133,7 @@ export const Icons = [
       "format": "png",
       "searchFilter": [
         "socials",
-        "forecast"
+        "fire"
       ]
     },
     {
@@ -143,7 +143,7 @@ export const Icons = [
       "format": "png",
       "searchFilter": [
         "food",
-        "politics"
+        "hungry"
       ]
     }
   ]
