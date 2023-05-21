@@ -69,6 +69,7 @@ export default  function SearchFilter () {
                 <table>
                     <tbody>
                     {Icons.filter(icon => icon.searchFilter.some(filter => filter.toLowerCase().includes(query.toLowerCase()))
+                        && icon.format.toLowerCase() === selectItem.toLowerCase()
                     ).map((icon) => ( <td key={icon.id}>
                             <IconComponent
                                 img={icon.link}
