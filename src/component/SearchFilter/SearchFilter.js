@@ -1,5 +1,7 @@
 import React from "react";
 import IconComponent from "../IconComponent/IconComponent";
+// import {LazyLoadImage} from "react-lazy-load-image-component";
+//import "react-lazy-load-image-component/src/effects/blur.css"
 import {Icons} from "./searchicondata";//dummy api call
 
 
