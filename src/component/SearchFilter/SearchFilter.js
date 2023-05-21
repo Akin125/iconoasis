@@ -40,7 +40,7 @@ export default  function SearchFilter () {
                     {dropDown &&  <div className="formatDropdown">
                         <ul>
                             <li onClick={() => handleSelection('PNG')}>PNG</li>
-                            <li className='line' onClick={() => handleSelection('JPEG')}>JPEG</li>
+                            <li className='line' onClick={() => handleSelection('ICO')}>ICO</li>
                             <li className='line' onClick={() => handleSelection('AI')}>AI</li>
                             <li className='line' onClick={() => handleSelection('SVG')}>SVG</li>
                         </ul>

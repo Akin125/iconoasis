@@ -194,3 +194,99 @@ tbody  td{
   width: 12px;
   height: 12px;
 }
+/*media queries*/
+@media (min-width : 360px){
+  .filterBody {
+    gap: 20px;
+  }
+
+  .searchInput input {
+    width: 240px;
+    height: 35px;
+  }
+}
+
+@media (min-width : 760px) {
+  .user {
+    color: #fffcfc;
+    font-size: 14px;
+    padding: 20px;
+  }
+
+  ul {
+    text-align: center;
+    list-style: none;
+    margin: 0;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 14px;
+    width: 96px;
+    height: 149px;
+    padding: 0 5px;
+  }
+
+  .formatDropdown ul li {
+    padding: 11px;
+  }
+
+  .nav {
+    font-family: 'Rubik';
+    color: #FFFCFC;
+    text-align: center;
+    padding: 20px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 29.2857px;
+    line-height: 26px;
+  }
+
+  .searchInput input {
+    width: 470px;
+    height: 54px;
+    text-indent: 30px;
+    font-size: 23px;
+  }
+
+  .filterBody {
+    gap: 63px;
+  }
+
+  .format {
+    padding: 20px;
+    font-size: 20px;
+  }
+
+  .IconContainer {
+    background-color: #f5b8cc;
+    border-radius: 10px;
+    padding: 20px 20px 6px 20px;
+    font-size: 14px;
+  }
+
+  .download img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .icondisplay {
+    margin-bottom: 10px;
+    background-color: #fffcfc;
+    padding: 25px;
+    border-radius: 10px;
+  }
+}
+
+@media (min-width : 1440px) {
+  table {
+    margin: 200px 10px;
+  }
+}
+
+@media (min-width : 1441px){
+  .force{
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+}
