@@ -3,7 +3,7 @@ export const Icons = [
       "id": "1",
       "name": "Chair",
       "link": "https://cdn-icons-png.flaticon.com/128/10786/10786671.png",
-      "format": "png",
+      "format": "svg",
       "searchFilter": [ "furniture", "chair" ]
     },
     {
