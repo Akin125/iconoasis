@@ -1,6 +1,6 @@
 import React from "react";
 import IconComponent from "../IconComponent/IconComponent";
-import {Icons} from "./searchicondata";
+import {Icons} from "./searchicondata";//dummy api call
 
 
 export default  function SearchFilter () {
