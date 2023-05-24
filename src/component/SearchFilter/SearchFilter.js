@@ -1,6 +1,8 @@
 import React from "react";
 import IconComponent from "../IconComponent/IconComponent";
-import {Icons} from "./searchicondata";
+// import {LazyLoadImage} from "react-lazy-load-image-component";
+//import "react-lazy-load-image-component/src/effects/blur.css"
+import {Icons} from "./searchicondata";//dummy api call
 
 
 export default  function SearchFilter () {
@@ -40,7 +42,7 @@ export default  function SearchFilter () {
                     {dropDown &&  <div className="formatDropdown">
                         <ul>
                             <li onClick={() => handleSelection('PNG')}>PNG</li>
-                            <li className='line' onClick={() => handleSelection('JPEG')}>JPEG</li>
+                            <li className='line' onClick={() => handleSelection('ICO')}>ICO</li>
                             <li className='line' onClick={() => handleSelection('AI')}>AI</li>
                             <li className='line' onClick={() => handleSelection('SVG')}>SVG</li>
                         </ul>
@@ -69,6 +71,7 @@ export default  function SearchFilter () {
                 <table>
                     <tbody>
                     {Icons.filter(icon => icon.searchFilter.some(filter => filter.toLowerCase().includes(query.toLowerCase()))
+                        && icon.format.toLowerCase() === selectItem.toLowerCase()
                     ).map((icon) => ( <td key={icon.id}>
                             <IconComponent
                                 img={icon.link}
