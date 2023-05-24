@@ -65,5 +65,8 @@ input {
         font-size: 18px;
         /* margin-left: -47px; */
     }
+    .submit {
+        margin-left: 130px;
+    }
 
 }
