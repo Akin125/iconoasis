@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from "react-router-dom";
 
 export default function NavBar(){
     return(
@@ -6,7 +7,7 @@ export default function NavBar(){
             <div className="nav">ICONOASIS</div>
 
             <div className="user">
-                UserName<span>Sign out</span>
+                UserName<Link to='login'><span>Sign out</span></Link>
             </div>
         </div>
     )
