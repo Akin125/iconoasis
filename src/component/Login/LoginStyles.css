@@ -55,7 +55,7 @@ input {
 @media (max-width:560px) {
     .user-info {
         text-align: center;
-        margin-left: 45px;
+        margin-left: 95px;
         width: 210px;
         height: 350px;
     }
