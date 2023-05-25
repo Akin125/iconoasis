@@ -1,66 +1,93 @@
-.top-section {
-    font-family: sans-serif;
+.loginContainer1{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
     text-align: center;
+    margin-bottom: 5%;
 }
 
-.user-info {
-    text-align: center;
-    margin-left: 655px;
-    width: 210px;
-    height: 350px;
-
-}
-
-.info-text {
-    float: left;
-    font-size: 16px;
-}
-
-input {
-    background-color: #D9D9D9;
-    width: 200px;
-    height: 28px;
-    border-radius: 0.4rem;
-    border: none;
+.Name{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 47px;
+    color: #4f67f9;
     margin-bottom: 10px;
 }
 
-.submit {
+.text{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: hsl(206deg 86.69% 13.66%);
+}
+
+form{
+    margin-top: 47px;
     display: flex;
-    justify-content: center;
-    font-weight: bolder;
-    margin-left: 689px;
-    margin-top: 60px;
-    width: 150px;
-    height: 30px;
-
+    flex-direction: column;
 }
 
-.text {
-    font-size: 22px;
+form input:focus-visible{
+    outline:  #4f67f9 solid 2px;
 }
 
-.Name {
-    font-size: 30px;
-    font-weight: bold;
+form input{
+    font-family: Rubik;
+    text-indent: 10px;
+    margin-bottom: 30px;
+    width: 260.08px;
+    height: 32px;
+    padding: 5px;
+    background: #c3e6f9;
+    border-radius: 5.04036px;
+    border: none;
+    color:  hsl(206deg 86.69% 13.66%);
 }
 
-.submit:hover {
-    background-color: gray;
+.submit{
+    margin-top: 40px;
+    border-radius: 7px;
+    width: 139.11px;
+    height: 32.26px;
+    border: none;
+    background: #4f67f9;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15.1211px;
+    line-height: 18px;
+    text-align: center;
+    color:  hsl(206deg 86.69% 13.66%);
+    font-family: Rubik;
 }
 
-@media (max-width:560px) {
-    .user-info {
+@media (min-width: 760px) {
+    .Name{
+        font-weight: 800;
+        font-size: 70.0341px;
+        line-height: 83px;
+    }
+
+    .text{
+        font-weight: 300;
+        font-size: 35.0171px;
+        line-height: 41px;
         text-align: center;
-        margin-left: 45px;
-        width: 210px;
-        height: 350px;
     }
 
-    .text {
-        word-wrap: none;
-        font-size: 18px;
-        /* margin-left: -47px; */
+    form input{
+        width: 478.72px;
+        height: 56.03px;
+        font-size: 20px;
     }
 
+    .submit{
+        width: 241.62px;
+        height: 56.03px;
+        font-size: 27px;
+    }
 }
