@@ -68,5 +68,20 @@ input {
     .submit {
         margin-left: 130px;
     }
+}
 
+@media (max-width:1200px) and (min-width:600px) {
+  .user-info {
+    text-align: center;
+    margin-left: 385px;
+    width: 210px;
+    height: 350px;
+}
+
+.text {
+    word-wrap: none;
+    font-size: 18px;
+}
+.submit{
+  margin-left: 415px;
 }
