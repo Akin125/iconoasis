@@ -61,9 +61,15 @@ form input{
     font-size: 15.1211px;
     line-height: 18px;
     text-align: center;
-    color:  hsl(206deg 86.69% 13.66%);
+    color:  white;
     font-family: Rubik;
 }
+
+.submit:hover{
+    background-color: #8394ff;
+}
+
+
 
 @media (min-width: 760px) {
     .Name{
