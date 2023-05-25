@@ -15,8 +15,8 @@ export default  function SearchFilter () {
 
     function handleDropdown(){
         if(!dropDown){
-        setDropdown(true)
-        }else {
+            setDropdown(true)
+        }else{
             setDropdown(false)
         }
     }
