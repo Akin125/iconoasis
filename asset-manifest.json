@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/iconoasis/static/css/main.1642261b.css",
-    "main.js": "/iconoasis/static/js/main.ec31310b.js",
+    "main.css": "/iconoasis/static/css/main.ac694603.css",
+    "main.js": "/iconoasis/static/js/main.72c32490.js",
     "static/js/787.5d5af67d.chunk.js": "/iconoasis/static/js/787.5d5af67d.chunk.js",
     "index.html": "/iconoasis/index.html",
-    "main.1642261b.css.map": "/iconoasis/static/css/main.1642261b.css.map",
-    "main.ec31310b.js.map": "/iconoasis/static/js/main.ec31310b.js.map",
+    "main.ac694603.css.map": "/iconoasis/static/css/main.ac694603.css.map",
+    "main.72c32490.js.map": "/iconoasis/static/js/main.72c32490.js.map",
     "787.5d5af67d.chunk.js.map": "/iconoasis/static/js/787.5d5af67d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1642261b.css",
-    "static/js/main.ec31310b.js"
+    "static/css/main.ac694603.css",
+    "static/js/main.72c32490.js"
   ]
 }
