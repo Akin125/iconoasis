@@ -20,7 +20,7 @@ function Login(){
 
         <input type="password" placeholder='Password' required={true}/>
 
-          <button className="submit"> SIGN UP</button>
+          <div><button className="submit"> SIGN UP</button></div>
       </form>
 
 
