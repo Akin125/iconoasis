@@ -1,14 +1,14 @@
 import React, {useEffect, useState} from "react";
-import './LoginStyles.css'
+import '../SignUp/SignUpStyles.css'
 
 
 function Login(){
     const[loginForm, setLoginForm] = useState(()=> JSON.parse(localStorage.getItem("LoginData"))||
         {
-            UserName: "",
-            Email: "",
+            // UserName: "",
+            Email_Username: "",
             password: "",
-            ConfirmPassword: ""
+            // ConfirmPassword: ""
         }
     )
 
@@ -29,40 +29,41 @@ function Login(){
     }
 
     function handleChange(event){
-       const {name , value} = event.target;
+        const {name , value} = event.target;
 
-       setLoginForm(prevState => (
-           {
-            ...prevState,
-               [name] : value
-           })
-       )
+        setLoginForm(prevState => (
+            {
+                ...prevState,
+                [name] : value
+            })
+        )
 
     }
 
-  return(
-      <div className='loginContainer1'>
-      <div className='loginContainer2'>
-      <div className="top-section">
-        <div className="Name">ICONOASIS</div>
-        <div className="text">Your one-stop icon destination</div>
-      </div>
+    return(
+        <div className='loginContainer1'>
+            <div className="Name-1">LOGIN</div>
+            <div className='loginContainer2'>
+                <div className="top-section">
+                    <div className="Name">ICONOASIS</div>
+                    <div className="text">Your one-stop icon destination</div>
+                </div>
 
-      <form onSubmit={handleSubmit}>
+                <form onSubmit={handleSubmit}>
 
-        <input type="text" placeholder='Username' required={true} onChange={handleChange} name='UserName' value={loginForm.UserName}/>
+                    {/*<input type="text" placeholder='Username' required={true} onChange={handleChange} name='UserName' value={loginForm.UserName}/>*/}
 
-        <input type="email" placeholder='Email' required={true}  onChange={handleChange}  name='Email' value={loginForm.Email}/>
+                    <input type="text" placeholder='Email/Username' required={true}  onChange={handleChange}  name='Email_Username' value={loginForm.Email_Username}/>
 
-        <input type="password" placeholder='Password' required={true}  onChange={handleChange} name='password' value={loginForm.password}/>
+                    <input type="password" placeholder='Password' required={true}  onChange={handleChange} name='password' value={loginForm.password}/>
 
-        <input type="password" placeholder='Password' required={true} onChange={handleChange}  name='ConfirmPassword' value={loginForm.ConfirmPassword}/>
+                    {/*<input type="password" placeholder='Password' required={true} onChange={handleChange}  name='ConfirmPassword' value={loginForm.ConfirmPassword}/>*/}
 
-          <div><button className="submit"> SIGN UP</button></div>
-      </form>
-      </div>
-      </div>
-  )
+                    <div><button className="submit">LOGIN</button></div>
+                </form>
+            </div>
+        </div>
+    )
 }
 
 export default Login;

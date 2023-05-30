@@ -9,6 +9,20 @@ body {
   background-position: bottom;
 }
 
+.ss{
+  color: #03abfe;
+  text-decoration: none;
+  text-underline: none;
+}
+
+.ss:focus{
+  color: #4f67f9;
+}
+
+.ss:hover{
+  color: white;
+}
+
 .nav{
   font-family: 'Rubik';
   color: #03abfe;
