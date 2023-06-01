@@ -27,7 +27,7 @@ export default  function SearchFilter () {
     }
 
     return(
-            <div className="center">
+        <div className="center">
 
 
             <div className='filterBody'>
@@ -52,8 +52,8 @@ export default  function SearchFilter () {
 
                 <div className="searchInput">
                     <input type="text"
-                      placeholder='Search you Icons.....'
-                      onChange={(event) => setQuery(event.target.value)}
+                           placeholder='Search you Icons.....'
+                           onChange={(event) => setQuery(event.target.value)}
                     />
                     {/*<ul className="searchlist">*/}
                     {/*    {Icons.filter((icon) => icon.name.toLowerCase().includes(query)*/}
@@ -68,19 +68,18 @@ export default  function SearchFilter () {
                 {/*<p>{searchicondata.icon[0].format}</p>*/}
             </div>
 
-                <table>
-                    <tbody>
-                    {Icons.filter(icon => icon.searchFilter.some(filter => filter.toLowerCase().includes(query.toLowerCase()))
-                        && icon.format.toLowerCase() === selectItem.toLowerCase()
-                    ).map((icon) => ( <td key={icon.id}>
-                            <IconComponent
-                                img={icon.link}
-                                name={icon.name}
-                            />
+            <table>
+                <tbody>
+                {Icons.filter(icon => icon.icon.tags.some(filter => filter.toLowerCase().includes(query.toLowerCase()))
+                    // && icon.format.toLowerCase() === selectItem.toLowerCase()// since there is no format
+                ).map((icon) => ( <td key={icon.icon.id}>
+                        <IconComponent
+                            img={icon.icon.thumbnail_url}
+                            name={icon.icon.term}
+                        />
                     </td>
-                    ))}
-                    </tbody>
-                </table>
-            </div>
+                ))}
+                </tbody>
+            </table>
+        </div>
     )}
-

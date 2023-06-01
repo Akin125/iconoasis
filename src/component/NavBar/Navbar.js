@@ -7,7 +7,7 @@ export default function NavBar(){
             <div className="nav">ICONOASIS</div>
 
             <div className="user">
-                UserName<Link to='/'className='ss'><span>Sign out</span></Link>
+                UserName <Link to='/login'className='ss'><span>Login</span></Link> <Link to='/signup'className='ss'><span>Sign Up</span></Link>
             </div>
         </div>
     )
