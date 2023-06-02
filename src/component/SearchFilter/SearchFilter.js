@@ -1,85 +1,59 @@
-import React from "react";
-import IconComponent from "../IconComponent/IconComponent";
-// import {LazyLoadImage} from "react-lazy-load-image-component";
-//import "react-lazy-load-image-component/src/effects/blur.css"
-import {Icons} from "./searchicondata";//dummy api call
-
-
-export default  function SearchFilter () {
-
-    const [query, setQuery] = React.useState('')
-    const [dropDown, setDropdown] = React.useState(false)
-    const [selectItem, setSelectItem] = React.useState('PNG');
-    // const icons = Object.values(jsonData.icon);
-
-
-    function handleDropdown(){
-        if(!dropDown){
-            setDropdown(true)
-        }else{
-            setDropdown(false)
-        }
-    }
-
-    function handleSelection(x){
-        setSelectItem(x);
-        setDropdown(false)
-    }
-
-    return(
-        <div className="center">
-
-
-            <div className='filterBody'>
-                <div className="selectFormat" >
-
-                    <div className="format" onClick={handleDropdown}>{selectItem}
-                        <span className='dropdown' >
-                            <img src="https://res.cloudinary.com/do5wu6ikf/image/upload/v1684572720/alx/Down_arrow_x9x9ni.svg" alt=""/>
-                        </span>
-                    </div>
-
-                    {dropDown &&  <div className="formatDropdown">
-                        <ul>
-                            <li onClick={() => handleSelection('PNG')}>PNG</li>
-                            <li className='line' onClick={() => handleSelection('ICO')}>ICO</li>
-                            <li className='line' onClick={() => handleSelection('AI')}>AI</li>
-                            <li className='line' onClick={() => handleSelection('SVG')}>SVG</li>
-                        </ul>
-                    </div>}
-
-                </div>
-
-                <div className="searchInput">
-                    <input type="text"
-                           placeholder='Search you Icons.....'
-                           onChange={(event) => setQuery(event.target.value)}
-                    />
-                    {/*<ul className="searchlist">*/}
-                    {/*    {Icons.filter((icon) => icon.name.toLowerCase().includes(query)*/}
-                    {/*    ).map((icon) => (*/}
-                    {/*        <li key={icon.id}>{icon.name}</li>*/}
-                    {/*    ))}*/}
-                    {/*</ul>*/}
-
-                </div>
-
-
-                {/*<p>{searchicondata.icon[0].format}</p>*/}
-            </div>
-
-            <table>
-                <tbody>
-                {Icons.filter(icon => icon.icon.tags.some(filter => filter.toLowerCase().includes(query.toLowerCase()))
-                    // && icon.format.toLowerCase() === selectItem.toLowerCase()// since there is no format
-                ).map((icon) => ( <td key={icon.icon.id}>
-                        <IconComponent
-                            img={icon.icon.thumbnail_url}
-                            name={icon.icon.term}
-                        />
-                    </td>
-                ))}
-                </tbody>
-            </table>
-        </div>
-    )}
+// import React, { useEffect, useState } from 'react';
+// import axios from 'axios';
+//
+// const SearchFilter = () => {
+//     const [iconData, setIconData] = useState(null);
+//
+//     useEffect(() => {
+//         const fetchIconData = async () => {
+//             const url = 'https://api.thenounproject.com/v2/icon/1';
+//             const consumerKey = '143ea616796042cc8e9ee02bfac3c261';
+//             const consumerSecret = 'a51457aff58742b3828bd5850276b018';
+//
+//             const oauth = {
+//                 consumer_key: consumerKey,
+//                 consumer_secret: consumerSecret,
+//                 token: '',
+//                 token_secret: '',
+//                 signature_method: 'HMAC-SHA1',
+//             };
+//
+//             const requestConfig = {
+//                 method: 'GET',
+//                 url,
+//                 headers: {
+//                     Authorization: `OAuth oauth_consumer_key="${oauth.consumer_key}", oauth_nonce="${generateNonce()}", oauth_signature="${generateSignature(
+//                         oauth,
+//                         requestConfig
+//                     )}", oauth_signature_method="${oauth.signature_method}", oauth_timestamp="${Math.floor(
+//                         Date.now() / 1000
+//                     )}"`,
+//                 },
+//             };
+//
+//             try {
+//                 const response = await axios(requestConfig);
+//                 setIconData(response.data);
+//             } catch (error) {
+//                 console.error('Error:', error);
+//             }
+//         };
+//
+//         fetchIconData();
+//     }, []);
+//
+//     return (
+//         <div>
+//             {iconData ? (
+//                 <div>
+//                     <h1>{iconData.icon.term}</h1>
+//                     <img src={iconData.icon.thumbnail_url} alt={iconData.icon.term} />
+//                 </div>
+//             ) : (
+//                 <p>Loading...</p>
+//             )}
+//         </div>
+//     );
+// };
+//
+// export default SearchFilter;

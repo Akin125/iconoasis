@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from "react";
 import '../SignUp/SignUpStyles.css'
+import {Link} from "react-router-dom";
 
 
 function Login(){
@@ -60,6 +61,7 @@ function Login(){
                     {/*<input type="password" placeholder='Password' required={true} onChange={handleChange}  name='ConfirmPassword' value={loginForm.ConfirmPassword}/>*/}
 
                     <div><button className="submit">LOGIN</button></div>
+                    <div className="alt">Dont`t have an account? <Link to='/signup' className='sss'><span>Sign Up</span></Link></div>
                 </form>
             </div>
         </div>

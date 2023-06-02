@@ -7,6 +7,20 @@
     flex-direction: column;
     align-items: center;
 }
+.passwordDetails{
+    font-size: 10px;
+    text-align: left;
+    margin-bottom: 42px;
+}
+.alt{
+    margin-top: 20px;
+    font-size: 15px;
+}
+.sss{
+
+    text-decoration: none;
+    color: #4f67f9;
+}
 
 .Name{
     margin-top: 30px;
