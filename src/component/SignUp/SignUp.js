@@ -108,7 +108,7 @@ function SignUp(){
 
     function uploadUserData() {
         const password = localStorage.getItem("password");
-        const userName = localStorage.getItem("username");
+        const username = localStorage.getItem("username");
         const fullname = localStorage.getItem("fullName");
         const email = localStorage.getItem("email");
 
@@ -164,6 +164,7 @@ function SignUp(){
 
     const handleSubmit = (event) => {
         event.preventDefault();
+
         localStorage.setItem("password", password);
         localStorage.setItem("username", username);
         localStorage.setItem("email", email);
@@ -203,7 +204,7 @@ function SignUp(){
         <input type="password" placeholder='Password' required={true} onChange={handleConfirmPasswordChange}  name='ConfirmPassword' value={confirmPassword}/>
 
           <div><button className="submit" disabled={!formValid} onClick={handleSubmit}> SIGN UP</button></div>
-          <div className="alt">Already have an account? <Link to='/login' className='sss'><span>login</span></Link></div>
+          <div className="alt">Already have an account? <Link to='/#/login' className='sss'><span>Login</span></Link></div>
       </form>
       </div>
       </div>

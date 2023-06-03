@@ -1,124 +1,37 @@
-const Icons = {
-    "generated_at": "2023-06-02 00:04:07.632589",
-    "icons": [
-    {
-        "attribution": "Parking by Adi Waluyo Noto Carito from Noun Project",
+
+export const Icons = [{
+    "generated_at": "2023-06-01 21:54:52.025178",
+    "icon": {
+        "attribution": "Log Cabin by Modik from Noun Project",
         "collections": [],
         "creator": {
-            "name": "Adi Waluyo Noto Carito",
-            "permalink": "/natacarita22",
-            "username": "natacarita22"
+            "name": "Modik",
+            "permalink": "/modik",
+            "username": "modik"
         },
-        "id": "5757659",
-        "license_description": "creative-commons-attribution",
-        "permalink": "/term/parking/5757659",
+        "icon_url": "https://static.thenounproject.com/svg_clean/1134.svg?Expires=1685660092&Signature=TNFe-u~Cm3bVv7J3p~jypD-dYcHsCqTw70CDGJq0IARKeTZDEDMlEBaSSXShSIV5SJx5orFOt3RLYQ19zdFr4pvneHlqoYUh22D7iD32eZU39WUk8Prf-Aaas8I-tQuoJuktaXhZ65XkOJwk6g-hBqovY82oOjsMGmKzX0Mryu4_&Key-Pair-Id=APKAI5ZVHAXN65CHVU2Q",
+        "id": "1134",
+        "license_description": "public-domain",
+        "permalink": "/term/log-cabin/1134",
         "tags": [
-            "parking",
-            "car",
-            "place",
-            "transport",
-            "vehicle"
+            "log-cabin",
+            "cabin",
+            "camping",
+            "home",
+            "house",
+            "park",
+            "shelter",
+            "wood"
         ],
-        "term": "Parking",
-        "thumbnail_url": "https://static.thenounproject.com/png/5757659-84.png",
-        "updated_at": "2023-05-30 17:27:56"
-    },
-    {
-        "attribution": "Parking by Adrien Coquet from Noun Project",
-        "collections": [
-            {
-                "creator": {
-                    "name": "Adrien Coquet",
-                    "permalink": "/coquet_adrien",
-                    "username": "coquet_adrien"
-                },
-                "id": "32157",
-                "name": "Parking",
-                "permalink": "/coquet_adrien/collection/parking"
-            }
-        ],
-        "creator": {
-            "name": "Adrien Coquet",
-            "permalink": "/coquet_adrien",
-            "username": "coquet_adrien"
-        },
-        "id": "992561",
-        "license_description": "creative-commons-attribution",
-        "permalink": "/term/parking/992561",
-        "tags": [
-            "parking",
-            "car"
-        ],
-        "term": "Parking",
-        "thumbnail_url": "https://static.thenounproject.com/png/992561-84.png",
+        "term": "Log Cabin",
+        "thumbnail_url": "https://static.thenounproject.com/png/1134-200.png",
         "updated_at": "2019-04-22 19:22:17"
     },
-    {
-        "attribution": "Parking by Adrien Coquet from Noun Project",
-        "collections": [
-            {
-                "creator": {
-                    "name": "Adrien Coquet",
-                    "permalink": "/coquet_adrien",
-                    "username": "coquet_adrien"
-                },
-                "id": "32157",
-                "name": "Parking",
-                "permalink": "/coquet_adrien/collection/parking"
-            }
-        ],
-        "creator": {
-            "name": "Adrien Coquet",
-            "permalink": "/coquet_adrien",
-            "username": "coquet_adrien"
-        },
-        "id": "992560",
-        "license_description": "creative-commons-attribution",
-        "permalink": "/term/parking/992560",
-        "tags": [
-            "parking"
-        ],
-        "term": "Parking",
-        "thumbnail_url": "https://static.thenounproject.com/png/992560-84.png",
-        "updated_at": "2019-04-22 19:22:17"
-    },
-    {
-        "attribution": "Parking by Adrien Coquet from Noun Project",
-        "collections": [
-            {
-                "creator": {
-                    "name": "Adrien Coquet",
-                    "permalink": "/coquet_adrien",
-                    "username": "coquet_adrien"
-                },
-                "id": "32157",
-                "name": "Parking",
-                "permalink": "/coquet_adrien/collection/parking"
-            }
-        ],
-        "creator": {
-            "name": "Adrien Coquet",
-            "permalink": "/coquet_adrien",
-            "username": "coquet_adrien"
-        },
-        "id": "992553",
-        "license_description": "creative-commons-attribution",
-        "permalink": "/term/parking/992553",
-        "tags": [
-            "parking"
-        ],
-        "term": "Parking",
-        "thumbnail_url": "https://static.thenounproject.com/png/992553-84.png",
-        "updated_at": "2019-04-22 19:22:17"
-    }
-],
-    "next_page": "31342E302C393932353533",
-    "prev_page": "31352E302C35373537363539",
-    "total": 3747,
+    "total": 1,
     "usage_limits": {
-    "monthly": {
-        "limit": 5000,
-            "usage": 7
+        "monthly": {
+            "limit": 5000,
+            "usage": 6
+        }
     }
-}
-}
+}]
