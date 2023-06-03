@@ -1,7 +1,7 @@
 import React, {useEffect, useRef, useState} from "react";
 import './SignUpStyles.css'
 import axiosWithAuth from "../SignUp/axiosWithAuth";
-import {Link} from 'react-router-dom';
+import {Link, useNavigate} from 'react-router-dom';
 
 let formData = new FormData();
 
@@ -14,6 +14,7 @@ function SignUp(){
     const [formValid, setFormValid] = useState(false);
     const [username, setUsername] = useState("");
     const [email, setEmail] = useState("");
+    const navigate = useNavigate();
 
     useEffect(() => {
         const storedUserName = localStorage.getItem("username");
@@ -127,6 +128,8 @@ function SignUp(){
                     console.log("response 200")
                     // Navigate to the next screen or perform any action you need to take
                     // window.location.href = '/login';
+                    navigate("/");
+                    alert('Check your mail(spam) for the login link');
 
                 } else {
                     const errorDiv = document.querySelector('.passwordDetails');
@@ -204,7 +207,7 @@ function SignUp(){
         <input type="password" placeholder='Password' required={true} onChange={handleConfirmPasswordChange}  name='ConfirmPassword' value={confirmPassword}/>
 
           <div><button className="submit" disabled={!formValid} onClick={handleSubmit}> SIGN UP</button></div>
-          <div className="alt">Already have an account? <Link to='/#/login' className='sss'><span>Login</span></Link></div>
+          <div className="alt">Already have an account? <Link to='/' className='sss'><span>Login</span></Link></div>
       </form>
       </div>
       </div>

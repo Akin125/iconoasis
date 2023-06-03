@@ -67,7 +67,7 @@ function Login() {
                         </button>
                     </div>
                     <div className="alt">
-                        Don't have an account?{" "}
+                        Don't have an account?
                         <Link to="/signup" className="sss">
                             <span>Sign Up</span>
                         </Link>
