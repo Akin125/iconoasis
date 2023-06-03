@@ -23,7 +23,7 @@ function Login() {
                 const token = response.data.token;
                 localStorage.setItem("token", token);
                 // Navigate to the home page after successful login
-                navigate("/");
+                navigate("/home");
                 console.log(localStorage.getItem("token"))
             } else {
                 setErrorMessage("Invalid credentials. Please try again.");
@@ -44,8 +44,8 @@ function Login() {
 
                 <form onSubmit={handleSubmit}>
                     <input
-                        type="text"
-                        placeholder="Email/Username"
+                        type="email"
+                        placeholder="Email"
                         required={true}
                         value={email}
                         onChange={(event) => setEmail(event.target.value)}
