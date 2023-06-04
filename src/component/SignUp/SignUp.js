@@ -69,7 +69,7 @@ function SignUp(){
         if (storedEmail) {
             setEmail(storedEmail);
         }
-    }, []);
+    }, );
 
     const handlePasswordChange = (event) => {
         setPassword(event.target.value);
@@ -134,7 +134,7 @@ function SignUp(){
                     alert('Check your mail(spam) for the login link');
 
                 } else {
-                    const errorDiv = document.querySelector('.passwordDetails');
+                    // const errorDiv = document.querySelector('.passwordDetails');
                     // errorDiv.innerHTML = 'An error occurred while uploading user data. Please try again.';
                 }
             })
