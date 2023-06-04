@@ -1,4 +1,4 @@
-import React, {useEffect, useRef, useState} from "react";
+import React, {useEffect, useState} from "react";
 import './SignUpStyles.css'
 import axiosWithAuth from "../SignUp/axiosWithAuth";
 import {Link, useNavigate} from 'react-router-dom';
@@ -28,7 +28,7 @@ function SignUp(){
         if (storedEmail) {
             setEmail(storedEmail);
         }
-    }, [password, confirmPassword]);
+    }, [validatePassword, validateUsername]);
 
     const handlePasswordChange = (event) => {
         setPassword(event.target.value);
