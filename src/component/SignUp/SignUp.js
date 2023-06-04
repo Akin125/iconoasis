@@ -69,7 +69,7 @@ function SignUp(){
         if (storedEmail) {
             setEmail(storedEmail);
         }
-    }, [validatePassword, validateUsername]);
+    }, []);
 
     const handlePasswordChange = (event) => {
         setPassword(event.target.value);
