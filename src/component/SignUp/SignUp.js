@@ -16,31 +16,6 @@ function SignUp(){
     const [email, setEmail] = useState("");
     const navigate = useNavigate();
 
-    useEffect(() => {
-        const storedUserName = localStorage.getItem("username");
-        const storedEmail = localStorage.getItem("email");
-        validatePassword();
-        validateUsername();
-
-        if (storedUserName) {
-            setUsername(storedUserName);
-        }
-        if (storedEmail) {
-            setEmail(storedEmail);
-        }
-    }, [validatePassword, validateUsername]);
-
-    const handlePasswordChange = (event) => {
-        setPassword(event.target.value);
-        validatePassword();
-    };
-
-
-    const handleConfirmPasswordChange = (event) => {
-        setConfirmPassword(event.target.value);
-        validatePassword();
-    };
-
     const validatePassword = (event) => {
         if (password.length < 8) {
             setPasswordError("Password must be at least 8 characters long.");
@@ -81,6 +56,33 @@ function SignUp(){
             setFormValid(true);
         }
     };
+
+    useEffect(() => {
+        const storedUserName = localStorage.getItem("username");
+        const storedEmail = localStorage.getItem("email");
+        validatePassword();
+        validateUsername();
+
+        if (storedUserName) {
+            setUsername(storedUserName);
+        }
+        if (storedEmail) {
+            setEmail(storedEmail);
+        }
+    }, [validatePassword, validateUsername]);
+
+    const handlePasswordChange = (event) => {
+        setPassword(event.target.value);
+        validatePassword();
+    };
+
+
+    const handleConfirmPasswordChange = (event) => {
+        setConfirmPassword(event.target.value);
+        validatePassword();
+    };
+
+
 
     // function handleSubmit(event){
     //     event.preventDefault() //to remove the url log
