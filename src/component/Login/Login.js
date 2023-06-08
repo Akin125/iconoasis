@@ -4,7 +4,7 @@ import "../SignUp/SignUpStyles.css";
 import { Link } from "react-router-dom";
 import axiosWithAuth from "../SignUp/axiosWithAuth";
 
-function Login() {
+export default function Login() {
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
     const [errorMessage, setErrorMessage] = useState("");
@@ -28,7 +28,8 @@ function Login() {
             } else {
                 setErrorMessage("Invalid credentials. Please try again.");
             }
-        } catch (error) {
+        }
+        catch (error) {
             setErrorMessage("An error occurred. Please try again.");
         }
     };
@@ -78,4 +79,3 @@ function Login() {
     );
 }
 
-export default Login;

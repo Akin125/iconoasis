@@ -2,7 +2,7 @@ import React, {useEffect, useState} from "react";
 import './SignUpStyles.css'
 import axiosWithAuth from "../SignUp/axiosWithAuth";
 import {Link} from 'react-router-dom';
-import useNavigate from "react-router-dom";
+import {useNavigate} from "react-router-dom";
 
 let formData = new FormData();
 

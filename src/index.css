@@ -9,6 +9,18 @@ body {
   background-position: bottom;
 }
 
+.btn--{
+  /*margin-top: 10px;*/
+  font-family: Rubik;
+  margin-left: 10px;
+  border: none;
+  padding: 20px;
+  background: rgb(5 50 84);
+  border-radius: 30px;
+  color: #fffcfc;
+  cursor: pointer;
+}
+
 .ss{
   color: #03abfe;
   text-decoration: none;
@@ -159,7 +171,7 @@ ul{
 
 .searchInput{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap: 0;
   margin: 0;
 }
@@ -178,7 +190,9 @@ tbody{
 table{
   margin: 40px 10px;
 }
-tbody  td{
+
+tbody td {
+  /*margin-left: 65px;*/
   padding: 10px;
 }
 
@@ -194,36 +208,54 @@ tbody  td{
 }
 
 .IconContainer{
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  display: flex;
   background-color: #d0e9f5;
   border-radius: 10px;
   padding: 10px;
+  width: border-box;
   font-size: 10px;
 }
 
-.nameDownload{
-  display: inline-flex;
-  flex-direction: row;
-  gap: 6px;
+.IconContainer img{
   width: 100%;
-  justify-content: space-between;
+  height: 100%;
+  border-radius: 10px;
 }
+
+.nameDownload {
+  padding-top: 30px;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 6px;
+  /* width: 100%; */
+  justify-content: space-evenly;
+  align-content: center;
+  align-items: center;
+}
+
 .icondisplay{
+  width: 100%;
   margin-bottom: 10px;
   background-color: #fffcfc;
   padding: 10px;
-  border-radius: 10px;
+  /*border-radius: 10px;*/
 }
 
 
 .download img:hover{
-  width: 14px;
-  height: 14px;
+  width: 35px;
+  height: 35px;
 }
 
 .download img{
   filter: brightness(60%)  hue-rotate(200deg);
-  width: 12px;
-  height: 12px;
+  width: 30px;
+  height: 30px;
+  border-radius: unset;
 }
 /*media queries*/
 @media (min-width : 360px){
