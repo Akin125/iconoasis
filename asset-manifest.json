@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/iconoasis/static/css/main.563ae9a3.css",
-    "main.js": "/iconoasis/static/js/main.766dd66e.js",
+    "main.css": "/iconoasis/static/css/main.78e79f4d.css",
+    "main.js": "/iconoasis/static/js/main.ce45ca47.js",
     "static/js/787.5d5af67d.chunk.js": "/iconoasis/static/js/787.5d5af67d.chunk.js",
     "static/media/search.png": "/iconoasis/static/media/search.21965a9d542b16197a69.png",
     "static/media/dowload1.png": "/iconoasis/static/media/dowload1.7570be6369b4f349f35c.png",
     "static/media/inistate.png": "/iconoasis/static/media/inistate.10c7d66b66955ff93017.png",
     "static/media/login.png": "/iconoasis/static/media/login.520421ecd990bee3d0fd.png",
     "index.html": "/iconoasis/index.html",
-    "main.563ae9a3.css.map": "/iconoasis/static/css/main.563ae9a3.css.map",
-    "main.766dd66e.js.map": "/iconoasis/static/js/main.766dd66e.js.map",
+    "main.78e79f4d.css.map": "/iconoasis/static/css/main.78e79f4d.css.map",
+    "main.ce45ca47.js.map": "/iconoasis/static/js/main.ce45ca47.js.map",
     "787.5d5af67d.chunk.js.map": "/iconoasis/static/js/787.5d5af67d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.563ae9a3.css",
-    "static/js/main.766dd66e.js"
+    "static/css/main.78e79f4d.css",
+    "static/js/main.ce45ca47.js"
   ]
 }
