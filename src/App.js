@@ -120,7 +120,12 @@ function App() {
             <div className="about" id="about2">
                 <div className="herotext spec1">ABOUT</div>
                 <div className="ftextcont diff abttext" id="diff">
-                    This website is made to have a user-friendly interface for browsing and downloading icons. The website is a marketplace where designers and users can search, and download icons for personal or commercial use. The website has a clean, modern design and will be optimized for performance, speed, and search engine visibility.
+                    This website is made to have a user-friendly interface for
+                    browsing and downloading photos. The website is a marketplace
+                    where designers and users can search, and download photos for
+                    personal or commercial use. The website has a clean, modern design
+                    and will be optimized for performance, speed, and search engine
+                    visibility.
                 </div>
                 <h1 className="herotext spec1">DEVELOPERS</h1>
                 <div className="devaccount">
