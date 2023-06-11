@@ -5,6 +5,11 @@
     margin: 0;
     padding: 0;
 }
+
+.sss{
+    color: #61dafb;
+    text-decoration: none;
+}
 span{
     cursor: pointer;
 }
@@ -12,7 +17,12 @@ span{
     transition: filter 3s ease-in-out;
     filter: blur(5px);
 }
-
+.back-to-top {
+    padding: 16px;
+    background:  #61dafb;
+    border-radius: 69%;
+    cursor: pointer;
+}
 .link{
     text-decoration: none;
     color: #61dafb;
@@ -177,20 +187,30 @@ cen{
     padding: 10px;
 
 }
-.projectlink{
+.projectlink {
+    font-size: 15px;
     text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
 }
 
 .dd{
     color: #61dafb;
 }
-.esc{
-    color:black ;
+.esc {
+    color: black;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
 }
 
-.esc i{
+.esc i {
     font-size: 25px;
-    padding-right: 10px;
+    padding-right: 32px;
 }
 
 .abttext{

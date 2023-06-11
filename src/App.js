@@ -22,7 +22,7 @@ function App() {
             <div className="header">
                 <div className="div-1">
                     <ScrollLink to="top" smooth={true} duration={500}>
-                        <h1 className="brand">ICONOASIS</h1>
+                        <a href="https://akin125.github.io/iconoasis/" className='sss'><h1 className="brand">ICONOASIS</h1></a>
                     </ScrollLink>
                 </div>
 
@@ -160,13 +160,13 @@ function App() {
                     <div className="Temi pad abttext">
                         <div className="name ftextcont">Temitayo Omolayo</div>
                         <div className="handles">
-                            <a href="" className="dd">
+                            <a href="https://github.com/Sam-Rytech" className="dd">
                                 <i className="fa-brands fa-github ftextcont"></i>
                             </a>
-                            <a href="" className="dd">
+                            <a href="https://www.linkedin.com/in/temitayo-omolayo-69961324a/" className="dd">
                                 <i className="fa-brands fa-linkedin ftextcont"></i>
                             </a>
-                            <a href="" className="dd">
+                            <a href="https://twitter.com/Sam_rytech?t=US1rrUBnQLaflTJdMjGZsw&s=09" className="dd">
                                 <i className="fa-brands fa-twitter ftextcont"></i>
                             </a>
                         </div>
@@ -174,13 +174,15 @@ function App() {
                 </div>
                 <div className="projectlink">
                     <a className="link esc" href="https://github.com/Optimustprime/Iconoasis">
-                        <i className="fa-solid fa-code-commit"></i>Github Repository
+                        <i className="fa-solid fa-code-commit"></i><span>Github Repository</span>
                     </a>
+
+                    <div className="back-to-top" onClick={scrollToTop}>
+                        <i className="fa-solid fa-arrow-up"></i>
+                    </div>
                 </div>
             </div>
-            <div className="back-to-top" onClick={scrollToTop}>
-                <i className="fa-solid fa-arrow-up"></i>
-            </div>
+
         </div>
     );
 }
