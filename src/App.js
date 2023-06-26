@@ -33,7 +33,7 @@ function App() {
                     <ScrollLink to="feature1" smooth={true} duration={500}>
                         <span className="sp-2">Features</span>
                     </ScrollLink>
-                    <a href="http://ec2-3-21-134-116.us-east-2.compute.amazonaws.com" className="link">
+                    <a href="http://ec2-18-222-214-188.us-east-2.compute.amazonaws.com" className="link">
                         <span className="sp-2">Try For Free</span>
                     </a>
                 </div>
@@ -45,15 +45,19 @@ function App() {
 
                     <div className="heroimg">
                         <LazyLoad offset={100} once>
-                        <img src={Heroimg} alt=""
+                            <a href="http://ec2-18-222-214-188.us-east-2.compute.amazonaws.com" className="link">
+
+                            <img src={Heroimg} alt=""
                              className={`lazy-image ${loadedImages.includes(Heroimg) ? "" : "image-placeholder"}`}
                              onLoad={() => handleImageLoad(Heroimg)}
                         />
+                            </a>
+
                         </LazyLoad>
                     </div>
                 </div>
                 <div className="button--try">
-                    <a href="http://ec2-3-21-134-116.us-east-2.compute.amazonaws.com" className="link">
+                    <a href="http://ec2-18-222-214-188.us-east-2.compute.amazonaws.com" className="link">
                         <div>Try for free</div>
                     </a>
                 </div>

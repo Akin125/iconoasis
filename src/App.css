@@ -6,6 +6,18 @@
     padding: 0;
 }
 
+.button--try div:hover{
+    background: #c9f3ff;
+}
+
+.div-2 span:hover{
+    color: #c9f3ff;
+}
+
+.lazy-image:hover{
+    opacity:0.95;
+}
+
 .sss{
     color: #61dafb;
     text-decoration: none;
@@ -34,7 +46,13 @@ body{
     overflow-x: hidden;
 }
 
+
+i:hover{
+    color: #c9f3ff;
+}
+
 .header {
+    z-index: 10000;
     top: 0;
     position: fixed;
     padding: 10px 0 10px 0;
@@ -206,6 +224,9 @@ cen{
     flex-direction: row;
     align-content: center;
     align-items: center;
+    background-color: #61dafb;
+    padding: 15px;
+    border-radius: 15px;
 }
 
 .esc i {
